@@ -1,10 +1,6 @@
 name: Nightly Docs
-
 on:
-  schedule:
-    - cron: '15 3 * * *'
-  workflow_dispatch:
-
+  push: null
 jobs:
   ansible-docs:
     name: Publish ansible-based docs
